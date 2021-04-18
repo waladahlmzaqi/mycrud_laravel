@@ -1,10 +1,11 @@
 # mycrud_laravel
 
-how to run the program
-1. change env.example to env
-   - change DB_DATABASE in env
+cara menjalankan crud laravel ini
+1. ganti env.example ke env
+   - ganti DB_DATABASE di file env sesuai dengan nama database di mysql
    - save
-2. open terminal in VS.CODE
-   - run php artisan migrate or php artisan migrate:fresh
-   - run php artisan serve
-   - done
+2. buka terminal di VS.CODE
+   - jalankan php artisan migrate / php artisan migrate:fresh
+   - jalankan php artisan serve
+   - dan copypaste code ini di browser http://127.0.0.1:8000/siswa
+   - selesai
